@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    overflow: hidden;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.mobilebackground {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 375px;
+    height: 635px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
+}
+
+.danceimg {
+    display: block;
+    width: 375px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cardbottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+
+.ordersummary {
+    text-align: center;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+.subheader {
+    text-align: center;
+    font-weight: 500;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.plan {
+    display: flex;
+    width: 375px;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 3em;
+}
+
+.symbolimg {
+    margin-right: 5px;
+}
+
+.currentplan {
+    display: flex;
+    flex-direction: column;
+}
+
+.plantype {
+    font-weight: 700;
+    padding-right: 2.5em;
+    color: hsl(223, 47%, 23%);
+}
+
+.price {
+    font-weight: 500;
+}
+
+.changeplan {
+    align-self: center;
+}
+
+.changeplan:hover {
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+
+.proceedtopay {
+    font-weight: 900;
+    width: 80%;
+    height: 3em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px -17px hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+}
+
+.proceedtopay:hover {
+    opacity: 60%;
+    box-shadow: 20px 20px 50px -17px hsl(245, 75%, 52%);
+}
+
+.cancelorder {
+    margin-bottom: 2em;
+    font-weight: 900;
+    border: 0;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancelorder:hover {
+    color: hsl(223, 47%, 23%);
+}
